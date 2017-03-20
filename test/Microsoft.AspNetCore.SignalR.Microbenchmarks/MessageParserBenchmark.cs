@@ -10,7 +10,7 @@ using Microsoft.AspNetCore.Sockets.Tests.Internal;
 namespace Microsoft.AspNetCore.SignalR.Microbenchmarks
 {
     [MemoryDiagnoser]
-    public class MessageParserBenchmarks
+    public class MessageParserBenchmark
     {
         private static readonly Random Random = new Random();
         private readonly MessageParser _parser = new MessageParser();

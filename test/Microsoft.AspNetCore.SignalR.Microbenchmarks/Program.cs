@@ -18,10 +18,6 @@ namespace Microsoft.AspNetCore.SignalR.Microbenchmarks
                 Console.ReadLine();
             }
             BenchmarkSwitcher.FromAssembly(typeof(Program).GetTypeInfo().Assembly).Run(args);
-
-            //var bench = new MessageParserBenchmarks() { ChunkSize = 0, Format = Sockets.MessageFormat.Binary };
-            //bench.Setup();
-            //bench.SingleTextMessageCopy();
         }
     }
 }
