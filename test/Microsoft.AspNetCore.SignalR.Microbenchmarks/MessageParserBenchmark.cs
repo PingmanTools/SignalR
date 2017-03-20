@@ -1,7 +1,5 @@
 ﻿using System;
 using System.Buffers;
-using System.Linq;
-using System.Text;
 using BenchmarkDotNet.Attributes;
 using Microsoft.AspNetCore.Sockets;
 using Microsoft.AspNetCore.Sockets.Internal.Formatters;
